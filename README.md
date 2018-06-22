@@ -1,3 +1,3 @@
 # Estuary whiplash: The role of climate and water management on estuary water quality and conditions.
 
-Project related to evaluating the role of climate and water management on estuary water quality
+This repository will be used to organize data, ideas and related information to the project.
