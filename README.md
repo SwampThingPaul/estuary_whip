@@ -10,7 +10,7 @@ Loceke et al (2017) using actual precipiation data and downscaled climate projec
 
 Weather Whiplash Index provides a relative value to the shift in precipitation regimes between two different periods thereby providing a quantitative metric to CC severity. A positive WWI indicates shifts from dry to wet conditions, while negative WWI values indicate shifts from wet to dry. The relative value provides an estimate of shift severity.
 
-Not stated by Loceke et al (2017), it is assumed that the January to June time period is considered a relatively dry period and the July to December is considered a relatively wet period for the American Midwest. Further inspection of [regional precipitation data](https://w2.weather.gov/climate/xmacis.php?wfo=eax) indicates that long-term mean rainfall between these periods are relatively equal. Below is a summary of regional precipitation values expressed as inches of precipitation.
+Not stated by Loceke et al (2017), it is assumed that the January to June time period is considered a relatively dry period and the July to December is considered a relatively wet period for the American Midwest. Further inspection of [regional precipitation data](https://w2.weather.gov/climate/xmacis.php?wfo=eax) indicates that long-term mean rainfall between these periods are relatively equal. Regardless the WWI allows for the comparison of values from one period to another. Below is a summary of regional precipitation values expressed as inches of precipitation.
 
 | Calendar Year | Jan to Jun | Jul to Dec | WWI   | 
 |:---------------:|:------------:|:------------:|:-------:| 
