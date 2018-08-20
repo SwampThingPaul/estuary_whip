@@ -51,7 +51,7 @@ This analysis was performed in R (Ver 3.4.1). To faciliate analysis of rainfall 
 WWI.index.fun=function(RF){
   require(zoo)
   dif.val=c(NA,diff(RF))
-  tot.val=c(NA,rollsum(tmp,2))
+  tot.val=c(NA,rollsum(RF,2))
   WWI=dif.val/tot.val
   return(WWI)
 }
