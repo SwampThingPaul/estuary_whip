@@ -49,6 +49,9 @@ The Saint Lucie (STL) River and its estuary are located on the lower east coast 
 
 Much like other regions in southern Florida, the STL river watershed has been highly modified to accommodate agriculture and coastal developement resulting in significantly altered natural sloughs and wetlands. Due to the modified hydrology and altered watershed, connections to and drainages from the watershed and Lake Okeechobee have led to extreme freshwater inflows resulting in upset salinity regimes, phytoplankton blooms and benthic flora and fauna impacts (Buzzelli et al 2013).    
 
+![osm_map](https://user-images.githubusercontent.com/36565183/44361298-711dfc00-a48b-11e8-840f-c4e589a1e1b0.png)
+**Figure 1** General study area map of the Saint Lucie River and estuary (northern and southern forks).
+
 ## Analysis in R
 This analysis was performed in R (Ver 3.4.1). To faciliate analysis of rainfall data with the Weather Whiplash Index  a custom R-function was developed to have reproduceable results. Below is the WWI funtion using a `data.frame` with monthly total rainfall. 
 
