@@ -12,6 +12,7 @@ Weather Whiplash Index provides a relative value to the shift in precipitation r
 
 Not stated by Loceke et al (2017), it is assumed that the January to June time period is considered a relatively dry period and the July to December is considered a relatively wet period for the American Midwest. Further inspection of [regional precipitation data](https://w2.weather.gov/climate/xmacis.php?wfo=eax) indicates that long-term mean rainfall between these periods are relatively equal. Regardless the WWI allows for the comparison of values from one period to another. Below is a summary of regional precipitation values expressed as inches of precipitation. Using the WWI, we intend to investigate climatic patterns and water management implications specific to the Saint Lucie River and its estuary located in southern Florida (see study area). 
 
+**Table 1.** Example of summarised monthly rainfall data and Weather Whiplash Index for the Kansas City Region. Data Source: [NOAA](https://w2.weather.gov/climate/xmacis.php?wfo=eax)
 | Calendar Year | Jan to Jun | Jul to Dec | WWI   | 
 |:---------------:|:------------:|:------------:|:-------:| 
 | 2000          | 18.36      | 16.60      |       | 
@@ -25,17 +26,6 @@ Not stated by Loceke et al (2017), it is assumed that the January to June time p
 | 2008          | 19.59      | 25.07      | 0.14  | 
 | 2009          | 22.31      | 22.64      | -0.06 | 
 | 2010          | 20.29      | 21.62      | -0.05 | 
-| 2011          | 18.56      | 18.36      | -0.08 | 
-| 2012          | 13.14      | 9.14       | -0.17 | 
-| 2013          | 18.05      | 16.43      | 0.33  | 
-| 2014          | 15.53      | 24.51      | -0.03 | 
-| 2015          | 24.18      | 22.41      | -0.01 | 
-| 2016          | 21.51      | 27.14      | -0.02 | 
-| 2017          | 22.70      | 23.32      | -0.09 | 
-|               |            |            |       | 
-| Mean          | 19.35      | 19.17      | 0.02  | 
-| SD            | 4.52       | 5.42       | 0.19  | 
-
 
 
 Below is the mathematical equivalent to the text explaining WWI by Loceke et al (2017) where P is total precipitation during each respective period. 
@@ -49,7 +39,7 @@ The Saint Lucie (STL) River and its estuary are located on the lower east coast 
 
 Much like other regions in southern Florida, the STL river watershed has been highly modified to accommodate agriculture and coastal developement resulting in significantly altered natural sloughs and wetlands. Due to the modified hydrology and altered watershed, connections to and drainages from the watershed and Lake Okeechobee have led to extreme freshwater inflows resulting in upset salinity regimes, phytoplankton blooms and benthic flora and fauna impacts (Buzzelli et al 2013).    
 
-![osm_map](https://user-images.githubusercontent.com/36565183/44361298-711dfc00-a48b-11e8-840f-c4e589a1e1b0.png)
+![osm_map](https://user-images.githubusercontent.com/36565183/44361543-323c7600-a48c-11e8-8468-e434a117c056.png)
 **Figure 1** General study area map of the Saint Lucie River and estuary (northern and southern forks).
 
 ## Analysis in R
