@@ -44,5 +44,18 @@ Below is the mathematical equivalent to the text explaining WWI by Loceke et al 
 
 This approach can be adapted to other regions at any time scale. 
 
+## Analysis in R
+This analysis was performed in R (Ver 3.4.1). To faciliate analysis of rainfall data with the Weather Whiplash Index  a custom R-function was developed to have reproduceable results. Below is the WWI funtion using a `data.frame` with monthly total rainfall. 
+
+```
+WWI.index.fun=function(RF){
+  require(zoo)
+  dif.val=c(NA,diff(RF))
+  tot.val=c(NA,rollsum(tmp,2))
+  WWI=dif.val/tot.val
+  return(WWI)
+}
+```
+
 ## References
   + Loecke TD, Burgin AJ, Riveros-Iregui DA, et al (2017) Weather whiplash in agricultural regions drives deterioration of water quality. Biogeochemistry 133:7–15. doi: 10.1007/s10533-017-0315-z
