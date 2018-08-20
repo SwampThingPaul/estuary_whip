@@ -10,7 +10,7 @@ Loceke et al (2017) using actual precipiation data and downscaled climate projec
 
 Weather Whiplash Index provides a relative value to the shift in precipitation regimes between two different periods thereby providing a quantitative metric to CC severity. A positive WWI indicates shifts from dry to wet conditions, while negative WWI values indicate shifts from wet to dry. The relative value provides an estimate of shift severity.
 
-Not stated by Loceke et al (2017), it is assumed that the January to June time period is considered a relatively dry period and the July to December is considered a relatively wet period for the American Midwest. Further inspection of [regional precipitation data](https://w2.weather.gov/climate/xmacis.php?wfo=eax) indicates that long-term mean rainfall between these periods are relatively equal. Regardless the WWI allows for the comparison of values from one period to another. Below is a summary of regional precipitation values expressed as inches of precipitation.
+Not stated by Loceke et al (2017), it is assumed that the January to June time period is considered a relatively dry period and the July to December is considered a relatively wet period for the American Midwest. Further inspection of [regional precipitation data](https://w2.weather.gov/climate/xmacis.php?wfo=eax) indicates that long-term mean rainfall between these periods are relatively equal. Regardless the WWI allows for the comparison of values from one period to another. Below is a summary of regional precipitation values expressed as inches of precipitation. Using the WWI, we intend to investigate climatic patterns and water management implications specific to the Saint Lucie River and its estuary located in southern Florida (see study area). 
 
 | Calendar Year | Jan to Jun | Jul to Dec | WWI   | 
 |:---------------:|:------------:|:------------:|:-------:| 
@@ -42,7 +42,12 @@ Below is the mathematical equivalent to the text explaining WWI by Loceke et al 
 
 >><a href="https://www.codecogs.com/eqnedit.php?latex=WWI&space;=&space;\frac{P_{Dry,i}-P_{Wet,i-1}}{P_{Dry,i}&plus;P_{Wet,i-1}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?WWI&space;=&space;\frac{P_{Dry,i}-P_{Wet,i-1}}{P_{Dry,i}&plus;P_{Wet,i-1}}" title="WWI = \frac{P_{Dry,i}-P_{Wet,i-1}}{P_{Dry,i}+P_{Wet,i-1}}" /></a>
 
-This approach can be adapted to other regions at any time scale. 
+This approach can be adapted to other regions at any time scale from monthly to annual rainfall totals. 
+
+### Study Area 
+The Saint Lucie (STL) River and its estuary are located on the lower east coast of Florida, USA. Historically the STL river and its estuary was a freshwater system only occasionally exposed to the coastal ocean through ephemeral passes in the barrier islands. As part of the extensive hydrological modifications that have shaped the modern Everglades ecosystems, STL inlet was permanently opened in the late 1800's to provide a connection between the estuary and the Atlantic ocean. In the early 1900's the C-44 canal was completed linking the southern fork of STL estuary with Lake Okeechobee.
+
+Much like other regions in southern Florida, the STL river watershed has been highly modified to accommodate agriculture and coastal developement resulting in significantly altered natural sloughs and wetlands. Due to the modified hydrology and altered watershed, connections to and drainages from the watershed and Lake Okeechobee have led to extreme freshwater inflows resulting in upset salinity regimes, phytoplankton blooms and benthic flora and fauna impacts (Buzzelli et al 2013).    
 
 ## Analysis in R
 This analysis was performed in R (Ver 3.4.1). To faciliate analysis of rainfall data with the Weather Whiplash Index  a custom R-function was developed to have reproduceable results. Below is the WWI funtion using a `data.frame` with monthly total rainfall. 
@@ -58,4 +63,6 @@ WWI.index.fun=function(RF){
 ```
 
 ## References
+  + Buzzelli C, Gorman P, Doering P, et al (2015) The application of oyster and seagrass models to evaluate alternative inflow scenarios related to Everglades restoration. Ecological Modelling 297:154–170. doi: 10.1016/j.ecolmodel.2014.10.029
+
   + Loecke TD, Burgin AJ, Riveros-Iregui DA, et al (2017) Weather whiplash in agricultural regions drives deterioration of water quality. Biogeochemistry 133:7–15. doi: 10.1007/s10533-017-0315-z
