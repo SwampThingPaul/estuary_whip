@@ -13,6 +13,7 @@ Weather Whiplash Index provides a relative value to the shift in precipitation r
 Not stated by Loceke et al (2017), it is assumed that the January to June time period is considered a relatively dry period and the July to December is considered a relatively wet period for the American Midwest. Further inspection of [regional precipitation data](https://w2.weather.gov/climate/xmacis.php?wfo=eax) indicates that long-term mean rainfall between these periods are relatively equal. Regardless the WWI allows for the comparison of values from one period to another. Below is a summary of regional precipitation values expressed as inches of precipitation. Using the WWI, we intend to investigate climatic patterns and water management implications specific to the Saint Lucie River and its estuary located in southern Florida (see study area). 
 
 **Table 1.** Example of summarised monthly rainfall data and Weather Whiplash Index for the Kansas City Region. Data Source: [NOAA](https://w2.weather.gov/climate/xmacis.php?wfo=eax)
+
 | Calendar Year | Jan to Jun | Jul to Dec | WWI   | 
 |:---------------:|:------------:|:------------:|:-------:| 
 | 2000          | 18.36      | 16.60      |       | 
